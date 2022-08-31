@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="images/TF.png">
+
+        <title>The Future of Teens</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.2/dist/flowbite.min.css" />
+
+
+        <link rel = "stylesheet" href = "build/tailwind.css">
+        <script src="scripts/script.js"></script>
+    </head>
+
+
+    <body id = "home" class = "bg-gray-50">
+        <script src="https://unpkg.com/flowbite@1.5.2/dist/flowbite.js"></script>
+
+        <!--navbar-->
+        <nav class = "p-5 bg-white shadow md:flex md:items-center md:justify-between"> 
+            <div class = "flex justify-between items-center">
+                <!--left-->
+                <span class = "font-bold text-2xl">
+                    <img class = "h-10 inline" src="">
+                    The <span class = "text-red-600">Future</span> of Teens
+                </span>
+
+                <!--burger-->
+                <span id = "burger" class ="navbar-burger cursor-pointer mx-2 md:hidden block">
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                   
+                </span>
+                <script src="scripts/burger.js" defer></script>
+                <script src="scripts/burgerclose.js" defer></script>
+                
+                </div>
+
+                
+
+                <!--right links-->
+                <ul class = "invisible md:visible md:flex md:items-center z-[1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-100">
+                    <li class = "mx-4 my-6 md:my-0"><a href = "#home" class="text-xl hover:text-red-600 duration-200">Home</a></li>
+                    <li class = "mx-4 my-6 md:my-0"><a href = "#vote" class="text-xl hover:text-red-600 duration-200">Vote</a></li>
+                    <li class = "mx-4 my-6 md:my-0"><a href = "#" class="text-xl hover:text-red-600 duration-200">Abortion</a></li>
+                </ul>
+
+                 <!--mobile burger-->
+                 <div class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right hidden" id = "navMenu">
+                    <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+                        <div class="px-3 pt-2 flex items-center justify-between">
+                        <div>
+                            <!--<img class="h-8 w-auto" src="" alt="">-->
+                            <span class = "font-bold text-2xl">
+                                <img class = "h-10 inline" src="">
+                                The <span class = "text-red-600">Future</span> of Teens
+                            </span>
+                        </div>
+                        <div class="-mr-2 navbar-close">
+                            <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                            <span class="sr-only">Close menu</span>
+                            <!-- Heroicon name: outline/x -->
+                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                            </button>
+                        </div>
+                        </div>
+                        <div class="px-2 pt-2 pb-3">
+                        <a href="#home" class="block px-3 py-2 rounded-md text-base font-medium  hover:text-red-600 duration-200">Home</a>
+                        <a href="#vote" class="block px-3 py-2 rounded-md text-base font-medium hover:text-red-600 duration-200-50">Vote</a>
+                        <a href="#" class="block px-3 py-2 rounded-md text-base font-medium hover:text-red-600 duration-200-50">Abortion</a>
+            
+                        
+                        </div>
+                    </div>
+                    </div>
+            
+               
+        </nav>
+        
+        <!--Hero-->
+        <div id = "hero" class ="w-full relative">
+            <div class="w-full h-full bg-gray-800 top-0 left-0 absolute opacity-50"></div>
+            <div class ="w-full h-full flex flex-col absolute top-0 left-0 justify-center items-center">
+                <br>
+                <div class = "text-4xl md:text-6xl py-3 text-white">The <span class = "text-red-600">Future</span> of Teens</div>
+                <div class = "md:text-2xl px-10 md:py-5 text-white">Teengers will be the pioneers of the next generation. Let's get them informed and involved.</div>
+                <br>
+                <div class = "">
+                    <a href="#vote"><button class="bg-red-600 hover:bg-red-800 text-white font-bold py-3 px-6 rounded-full mx-2 invisible md:visible">Vote</button></a>
+                    <a href="#vote"><button class="bg-red-600 hover:bg-red-800 text-white font-bold py-3 px-6 rounded-full mx-2 invisible md:visible">Abortion</button></a>
+                    <a href="#vote"><button class="bg-red-600 hover:bg-red-800 text-white font-bold py-3 px-6 rounded-full mx-2 invisible md:visible">Get Involved</button></a>
+
+                </div>
+            </div>
+            
+            <img class = "w-full" src ="images/teens.png">
+            
+        </div>
+
+
+        <!--Vote-->
+        <div id = "vote" class = "w-full relative py-10">
+            <div class="w-full h-full flex flex-col justify-center items-center px-10 md:px-0">
+                
+                <div class = "text-4xl font-bold"><span class = "text-red-600">Vote</span> for Change</div>
+                <div class = "text-xl py-5 text-gray-700">Check the resources below to register to vote, vote by absentee ballot, and vote as a teen.  </div>
+                
+                <ul class = "md:flex items-center my-3">
+                    <div class="max-w-sm rounded overflow-hidden shadow-lg mx-5 my-5 md:my-0">
+                        <img class="w-full" src="images/votehere.jpg" alt="">
+                        <div class="px-6 py-4">
+                          <div class="font-bold text-xl mb-2">Register to Vote</div>
+                          <p class="text-gray-700 text-base"> Sign up to vote here.
+                          </p>
+                          <br>
+                          <button class="registerbutton bg-red-600 hover:bg-red-800 text-white font-bold py-2 my-4 px-4 rounded">Register to Vote</button>
+                        </div>
+                    </div>
+
+                    <div class="max-w-sm rounded overflow-hidden shadow-lg mx-5 my-5 md:my-0">
+                        <img class="w-full" src="images/absentee.jpg" alt="">
+                        <div class="px-6 py-4">
+                          <div class="font-bold text-xl mb-2">Vote by Absentee</div>
+                          <p class="text-gray-700 text-base"> Request Your Absentee Ballot
+                          </p>
+                          <br>
+                          <button class="absenteebutton bg-red-600 hover:bg-red-800 text-white font-bold py-2 my-4 px-4 rounded">Absentee Vote</button>
+                        </div>
+                    </div>
+
+                    <div class="max-w-sm rounded overflow-hidden shadow-lg mx-5 my-5 md:my-0">
+                        <img class="w-full" src="images/mhfa-teen.jpg" alt="">
+                        <div class="px-6 py-4">
+                          <div class="font-bold text-xl mb-2">Vote as a teen </div>
+                          <p class="text-gray-700 text-base"> If you turn 18 before election day, you may register to vote here.
+                          </p>
+                          <button class="teenbutton bg-red-600 hover:bg-red-800 text-white font-bold py-2 my-4 px-4 rounded">Preregister Here </button>
+                        </div>
+                    </div>
+
+                    <div class="max-w-sm rounded overflow-hidden shadow-lg mx-5 my-5 md:my-0">
+                        <img class="w-full" src="images/states.png" alt="">
+                        <div class="px-6 py-4">
+                          <div class="font-bold text-xl mb-2">Voting by State</div>
+                          <p class="text-gray-700 text-base"> Voting dates and information varies by state. Check out your state here.
+                          </p>
+                          <a href="https://www.usa.gov/election-office" target="_blank">
+                            <button class=" bg-red-600 hover:bg-red-800 text-white font-bold py-2 my-4 px-4 rounded">Check here</button>
+                          </a>
+                          
+                        </div>
+                    </div>     
+                </ul>
+
+                
+            
+                
+                
+            </div>
+
+            <!--register-->
+            <div id = "register" class="relative z-10 hidden max-h-full" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+                <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+            
+                <div class="fixed inset-0 z-10 overflow-y-auto">
+                <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+                    <div class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+                    <div class=" bg-white px-4 pt-5  pb-4 sm:p-6 sm:pb-4">         
+                        
+                        <iframe style = "height:75vh" src="https://register.vote.org/?partner=111111&campaign=free-tools" width="100%" marginheight="0" frameborder="0" id="frame1" scrollable ="no"></iframe><script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.3/iframeResizer.min.js"></script><script type="text/javascript">iFrameResize({ log:true, checkOrigin:false});</script> 
+                        
+                        
+                    </div>
+                    <div class="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
+                        <button type="button" class="closebutton mt-3 inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">Close</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!--absentee-->
+            <div id = "absentee" class="relative z-10 hidden max-h-full" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+                <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+            
+                <div class="fixed inset-0 z-10 overflow-y-auto">
+                <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+                    <div class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+                    <div class=" bg-white px-4 pt-5  pb-4 sm:p-6 sm:pb-4">                      
+                        <iframe style = "height:75vh" src="https://absentee.vote.org/?partner=111111&campaign=free-tools" width="100%" marginheight="0" frameborder="0" id="frame2" scrollable ="no"></iframe><script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.3/iframeResizer.min.js"></script><script type="text/javascript">iFrameResize({ log:true, checkOrigin:false});</script>           
+                    </div>
+                    <div class="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
+                        <button type="button" class="closeabutton mt-3 inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">Close</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+            <!--teen vote-->
+            <div id = "teen" class="relative z-10 hidden max-h-full" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+                <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+            
+                <div class="fixed inset-0 z-10 overflow-y-auto">
+                <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+                    <div class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+                    <div class=" bg-white px-4 pt-5  pb-4 sm:p-6 sm:pb-4">                      
+                        <iframe style = "height:75vh" src="https://pledge.vote.org/?partner=111111&campaign=free-tools" width="100%" marginheight="0" frameborder="0" id="frame5" scrollable ="no"></iframe><script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.3/iframeResizer.min.js"></script><script type="text/javascript">iFrameResize({ log:true, checkOrigin:false});</script>
+                    </div>
+                    <div class="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
+                        <button type="button" class="closetbutton mt-3 inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">Close</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class = "abortion bg-red-600 w-full relative py-10">
+            <div class = "w-full h-full flex flex-col justify-center items-center">
+                <div class = "text-4xl text-white font-bold">Abortion</div>
+                <div class = "text-xl pt-4 px-4 md:px-60 text-white">Abortion is "the deliberate termination of a human pregnancy, most often performed during the first 28 weeks of pregnancy". With 
+                    the recent Roe v. Wade case, abortion laws across states have changed. Stay informed with the latest resources below.</div>
+            </div>
+
+            <ul class ="flex flex-col md:flex-row justify-center items-center mt-2">
+                    <li><a href="https://supreme.findlaw.com/supreme-court-insights/roe-v--wade-case-summary--what-you-need-to-know.html" target="_blank"><button class="bg-red-800 hover:bg-red-900 text-white font-bold py-3 px-6 my-2 rounded-full mx-2">What is Roe v. Wade?</button></a></li>
+                    <li><a href="https://www.npr.org/2022/06/24/1102305878/supreme-court-abortion-roe-v-wade-decision-overturn" target="_blank"><button class="bg-red-800 hover:bg-red-900 text-white font-bold py-3 px-6 my-2 rounded-full mx-2 ">In the News</button></a></li>
+                    <li><a href="https://reproductiverights.org/maps/abortion-laws-by-state/" target="_blank"><button class="bg-red-800 hover:bg-red-900 text-white font-bold py-3 px-6 my-2 rounded-full mx-2 ">Abortion by State</button></a></li> 
+                    <li><a href="https://www.plannedparenthood.org/learn/abortion" target="_blank"><button class="bg-red-800 hover:bg-red-900 text-white font-bold py-3 px-6 my-2 rounded-full mx-2 ">Additional Resources</button></a></li>              
+            </ul>
+            <!---->
+            
+        </div>
+
+
+
+
+
+
+
+        <script>
+            
+
+            //register modal 
+            {
+                    document.addEventListener('DOMContentLoaded', () => {
+                const $element = Array.prototype.slice.call(document.querySelectorAll('.closebutton'), 0);
+                if ($element.length > 0) {
+                $element.forEach( el => {
+                    el.addEventListener('click', () => {
+                    const target = el.dataset.target;
+                    const $target = document.getElementById("register");
+                    $target.classList.toggle('hidden');
+                });});}});
+                document.addEventListener('DOMContentLoaded', () => {
+                const $element = Array.prototype.slice.call(document.querySelectorAll('.registerbutton'), 0);
+                if ($element.length > 0) {
+                $element.forEach( el => {
+                    el.addEventListener('click', () => {
+                    const target = el.dataset.target;
+                    const $target = document.getElementById("register");
+                    $target.classList.toggle('hidden');
+                });});}});
+                }
+           
+
+            //absentee modal
+            {
+                document.addEventListener('DOMContentLoaded', () => {
+            const $element = Array.prototype.slice.call(document.querySelectorAll('.closeabutton'), 0);
+            if ($element.length > 0) {
+            $element.forEach( el => {
+                el.addEventListener('click', () => {
+                const target = el.dataset.target;
+                const $target = document.getElementById("absentee");
+                $target.classList.toggle('hidden');
+            });});}});
+            document.addEventListener('DOMContentLoaded', () => {
+            const $element = Array.prototype.slice.call(document.querySelectorAll('.absenteebutton'), 0);
+            if ($element.length > 0) {
+            $element.forEach( el => {
+                el.addEventListener('click', () => {
+                const target = el.dataset.target;
+                const $target = document.getElementById("absentee");
+                $target.classList.toggle('hidden');
+            });});}});
+
+            }
+            
+            //teen modal
+            {
+                document.addEventListener('DOMContentLoaded', () => {
+            const $element = Array.prototype.slice.call(document.querySelectorAll('.closetbutton'), 0);
+            if ($element.length > 0) {
+            $element.forEach( el => {
+                el.addEventListener('click', () => {
+                const target = el.dataset.target;
+                const $target = document.getElementById("teen");
+                $target.classList.toggle('hidden');
+            });});}});
+            document.addEventListener('DOMContentLoaded', () => {
+            const $element = Array.prototype.slice.call(document.querySelectorAll('.teenbutton'), 0);
+            if ($element.length > 0) {
+            $element.forEach( el => {
+                el.addEventListener('click', () => {
+                const target = el.dataset.target;
+                const $target = document.getElementById("teen");
+                $target.classList.toggle('hidden');
+            });});}});
+            }
+            
+
+        </script>
+    </body>
+    
+</html>
